@@ -721,7 +721,7 @@
     transition: 0.5s;
     border-left: 1px solid #ddd;
 
-    padding: 56px 0;
+    padding: 152px 0;
 
     z-index: 999;
 }
@@ -739,6 +739,10 @@
     color: #C51624;
 }
 
+.right_banner .icon i:hover {
+    color: #555;
+}
+
 .right_banner .icon span {
     font-size: 14px;
     font-weight: 500;
@@ -751,7 +755,7 @@
 
 .right_banner .btn {
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: -65px;
     transform: translate(0, 0) rotate(90deg);
     border: 1px solid #ddd;
